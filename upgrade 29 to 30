@@ -1,13 +1,13 @@
-1. Update software and back up your system
+Update software and back up your system
 	sudo dnf upgrade --refresh
 
-2. Install the DNF plugin
+Install the DNF plugin
 	sudo dnf install dnf-plugin-system-upgrade
 
-3. Start the update with DNF
+Start the update with DNF
 	sudo dnf system-upgrade download --releasever=30
 
-4. Reboot and upgrade
+Reboot and upgrade
 	sudo dnf system-upgrade reboot 
 
 	
